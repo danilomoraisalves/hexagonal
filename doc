@@ -1,0 +1,13 @@
+Application ele deve ficar livre de framework
+PORTS DO APPLICATIONS:
+ in: porta de acesso para o core (Interface de entrada)
+ out: porta de saida para core (Interface de saida)
+
+Adapters: Implementação das portas de entradas e saidas
+Adapter de entrada como eu entro na minha aplicação (FILA, CONTROLLER etc)
+Adapter de saida como eu saio da minha aplicação (BD, Requisição em outra API, Producir msg em uma fila)
+ - Client das apis
+ - repository de acesso ao banco de dados
+
+Config: Onde ficara todas configurações do nosso projeto
+
